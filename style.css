@@ -1,3 +1,7 @@
+body {
+    background-image: url(\bkgd.png);
+}
+
 h1 {
     font: arial;
     font-size: 34px;
