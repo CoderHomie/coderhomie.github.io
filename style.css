@@ -1,5 +1,5 @@
 body {
-    background-image: url(\bkgd.png);
+    background-image: url("bkgd.png");
     background-size: cover;
 }
 
