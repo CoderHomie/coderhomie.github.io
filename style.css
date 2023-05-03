@@ -15,9 +15,9 @@ body {
 
 h1 {
     font: arial;
-    font-size: 7em;
+    font-size: 6em;
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     background-color: white;
     background-clip: border-box;
     background-origin: border-box;
