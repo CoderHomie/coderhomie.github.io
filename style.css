@@ -1,12 +1,12 @@
 @keyframes bkgd_anim
   {
-    0% {background-image: url("images\0%bkgdanim.png");}
-    100% {background-image: url("images\100%bkgdanim.png");}
+    0% {background-image: url('/images/0%bkgdanim.png');}
+    100% {background-image: url('/images/100%bkgdanim.png');}
   }
 
 body
   {
-    background-image: url("images\bkgd.png");
+    background-image: url('/images/bkgd.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
