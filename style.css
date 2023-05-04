@@ -26,6 +26,13 @@ h1
     background-origin: border-box;
   }
 
+h3
+  {
+    font: arial;
+    font-size: 4.5em;
+    text-align: left;
+  }
+
 p
   {
     font: arial;
