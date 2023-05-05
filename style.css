@@ -1,18 +1,15 @@
 @keyframes bkgd_anim
   {
-    0% {background-image: url('images/0%bkgdanim.png');}
-    100% {background-image: url('images/100%bkgdanim.png');}
+    0% {background-image: url('/images/0%bkgdanim.png');}
+    100% {background-image: url('/images/100%bkgdanim.png');}
   }
 
 body
   {
-    background-image: url('../images/imagesbkgd.png');
-    background-size: contain;
+    background-image: url('/images/bkgd.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    animation-name: bkgd_anim;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
   }
 
 h1
@@ -20,9 +17,6 @@ h1
     font: arial;
     font-size: 4.5em;
     text-align: center;
-    background-color: white;
-    background-clip: border-box;
-    background-origin: border-box;
   }
 
 h3
